@@ -40,7 +40,7 @@ const home = () => {
             Lorem ipsum dolor sit amet consecteturolor sit amet consectetur olor
             sit amet consectetur adipisicing <br /> elit. Doloribus errolor sit
             amet consecteturor quis repellendus odit eius <br /> sapiente hic
-            ullam, revolor sit amet consecteturpudiandae tempora assumenda dolor{" "}
+            ullam, revolor sit amet consecteturpudiandae tempora assumenda dolor
             <br /> dicta autem consequuolor sit amet consecteturntur! Quisquam
             animi possimus <br /> necessitatibus expedita voluptates.
           </p>
