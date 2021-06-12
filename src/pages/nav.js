@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { GoThreeBars } from "react-icons/go";
+import { ReactComponent as Logo } from "../images/logo.svg";
 import "./nav.css";
 
 function NavBar() {
@@ -11,7 +12,9 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <span className="nav-logo">CliniPedia</span>
+          <span className="nav-logo">
+            <Logo />
+          </span>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <span className="navs">

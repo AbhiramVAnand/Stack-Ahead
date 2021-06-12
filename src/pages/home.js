@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import "./home.css";
 import Nav from "./nav";
 import Footer from "./footer";
-import { FaCalendarPlus } from "react-icons/fa";
-import { AiOutlineSafetyCertificate } from "react-icons/ai";
-import { GrLocation } from "react-icons/gr";
+import { ReactComponent as Calender } from "../images/calender.svg";
+import { ReactComponent as Location } from "../images/Location.svg";
+import { ReactComponent as Shield } from "../images/Shield.svg";
 
 const home = () => {
   return (
@@ -50,14 +50,14 @@ const home = () => {
           <div className="panels">
             <div id="tile">
               <span id="icon">
-                <GrLocation />
+                <Location />
               </span>
               <br /> Available in major <br />
               locations
             </div>
             <div id="tile">
               <span id="icon">
-                <AiOutlineSafetyCertificate />
+                <Shield />
               </span>
               <br />
               Quality <br />
@@ -65,7 +65,7 @@ const home = () => {
             </div>
             <div id="tile">
               <span id="icon">
-                <FaCalendarPlus />
+                <Calender />
               </span>
               <br />
               Get appoinment in <br /> a couple of seconds
